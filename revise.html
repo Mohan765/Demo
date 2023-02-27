@@ -1,0 +1,56 @@
+
+<h1>Course Registration Form</h1>
+<form action="/Serv1">
+   <fieldset>
+    <legend>Personal Detailes</legend>
+    <label>First name</label> <input type="text" name="FN" placeholder="ex-Mohan" size="15" maxlength="10"><br>
+    <label>Surname</label> <input type="text" name="SN" placeholder="ex-Munirathanm" size="15"><br>
+    <label>Mobile number</label><input type="number" name="Mobile number" placeholder="987-6543-210" size="15" maxlength="10"><br>
+    <label>Email</label><input type="Email" name="mail" placeholder="Mohan@gmail.com" size="15"><br>
+    <label>Password</label><input type="password" name="password" size="15"><br>
+    <label>DOB</label><input type="date" name="date" size="15"><br>
+    <label>Gender</label><input type="radio" name="gender" value="M">Male<input type="radio" name="gender" value="F">Female
+    <input type="radio" name="gender" value="Custom">Custom<br>
+    <label>Select Country</label>
+    <select name="Country">
+        <option value="INDIA">INDIA</option>
+        <option value="USA">USA</option>
+        <option value="CHINA">CHINA</option>
+    </select><br>
+    <label>Upload picture</label><input type="file" name="pic"><br>
+    <input type="reset">
+   </fieldset>
+   <fieldset>
+    <legend>Course Detailes</legend>
+    <select name="Course">
+        <option value="JF">Java Full Stack</option>
+        <option value="PF">Python Full Stack</option>
+        <option value="CJ">Core Java</option>
+    </select><br>
+    <label>Delivary Mode</label>offline
+    <input type="checkbox" name="model1" value="ON">Online
+    <input type="checkbox" name="model2" value="ON">Offline<br>
+    <label>Comments</label><br>
+    <textarea rows="4" cols="40"></textarea>
+
+
+   </fieldset>
+   <input type="submit">
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
